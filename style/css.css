@@ -1,0 +1,110 @@
+
+
+/*Start Font */
+@import url('https://fonts.googleapis.com/css?family=Pompiere');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+/*End Font */
+
+
+
+
+/* Start General */
+html{
+	width: 100%;
+	height: 100%;
+}
+*{
+	font-family: pompiere;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: #a93f27;
+	text-align: center;
+}
+
+/* End general */
+
+
+
+
+/* Start Form Style*/
+/* End Form Style*/
+
+
+
+
+#input,#output {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 15px;
+	display: inline-block;
+	margin-top: 0%;
+	width: 48.5%;
+	height: 86.5%;
+	background-color: #797171;
+	border-radius: 1%;
+	padding: 10px 4px;
+	color: snow;
+ 	border: 0 none #FFF;
+    outline:none;
+}
+#input{
+	margin-right: 13px;	
+
+}
+
+h3{
+	font-size: 30px;
+	font-family: 'Inconsolata', monospace;
+}
+a{
+	text-decoration: none;
+}
+a#Load{
+	font-size: 15px;
+	position: absolute;
+	left: 47.5%;
+	top: 7%;
+	background-color: #ffbc00;
+	color : black;
+	padding: 20px 10px;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+a#Run{
+	font-size: 30px;
+	position: absolute;
+	left: 47.5%;
+	top: 50%;
+	background-color: #ffbc00;
+	color : black;
+	padding: 10px 10px;
+	border-radius: 50%;
+	border: 2px solid black;
+	-webkit-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+}
+a#Load:hover{
+	background-color: ;
+	text-decoration: none;
+	-webkit-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;	
+}
+a#Run:hover{
+	background-color: snow;
+	border-color: red;
+	color: red;
+	text-decoration: none;
+	-webkit-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;	
+}
